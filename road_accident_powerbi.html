@@ -10,7 +10,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Balsamiq+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+        
+        <style>
+            @media only screen and (max-width: 767px) {
+            #results {
+                display: none;
+            }
+        }
+        </style>
+    
+    
+    </head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -49,7 +59,7 @@
                         <div style="background-color: white; padding: 30px 10px;">
                             <div class="row mt-4">
                                 <div class="col-md-4">
-                                    <img src="images/intro.jpg" style="width: 100%; height: 300px;" alt="">
+                                    <img src="images/intro.jpg" style="width: 100%;" alt="">
                                 </div>
                                 <div class="col-md-8 px-4">
                                     <h2>
@@ -96,21 +106,21 @@
                                     </p>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/dashboard1.jpg" style="width: 100%; height: 500px;" alt="">
+                                    <img src="images/dashboard1.jpg" style="width: 100%;" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex align-items-end justify-content-end">
+                        <div class="d-flex align-items-center justify-content-center">
                             <a href="Road accident power bi.pbix" download><button class="bg-dark text-white">Click here to download the POWER BI file</button></a>
                             <!-- <button class="bg-dark"><a href="Road accident power bi.pbix" download class="text-white">Click here to download the POWER BI file</a></button> -->
                         </div>
-                        <div class="p-0">
-                            <img src="images/powerbiPort.png" style="width: 100%;" alt="">
+                        <div class="p-0 d-flex align-items-center justify-content-center">
+                            <img src="images/powerbiPort.png" style="width: 90%;" alt="">
                         </div>
                         <div style="background-color: white; padding: 30px 10px;"><br><br>
                             <div class="row mt-4">
                                 <div class="col-md-3">
-                                    <img src="images/result.jpg" style="width: 100%; height: 300px;" alt="">
+                                    <img src="images/result.jpg" id="results" style="width: 100%;" alt="">
                                 </div>
                                 <div class="col-md-9 px-4">
                                     <h2>
